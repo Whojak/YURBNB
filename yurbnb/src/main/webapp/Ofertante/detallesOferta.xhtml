@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:h="http://xmlns.jcp.org/jsf/html"
+        xmlns:f="http://xmlns.jcp.org/jsf/core"
+        xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+        xmlns:b="http://bootsfaces.net/ui"
+>
+<h:head>
+   <title>YURBNB</title>
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+</h:head>
+<h:body>
+   <ui:include src="c.ofertante.xhtml" />
+   <br />
+   <div class="container">
+      <h3>Detalles de oferta</h3>
+      <form>
+         <h:link value="Regresar" outcome="adminOfertante" styleClass="btn btn-success" />
+         <div class="mb-3">
+            <label class="form-label h5">ID: </label>
+            <label class="form-label h5">1</label>
+         </div>
+         <div class="mb-3">
+            <label  class="form-label h5">Titulo: </label>
+            <label class="form-label h5">Salinitas</label>
+         </div>
+         <div class="mb-3">
+            <label  class="form-label h5">Costo: </label>
+            <label class="form-label h5">$100</label>
+         </div>
+         <div class="mb-3">
+            <label  class="form-label h5">Descripcion: </label>
+            <label class="form-label">Las olas suaves acarician la orilla, creando el ambiente perfecto
+               para relajarse y disfrutar del sol. Palmeras altas ofrecen sombra
+               natural, proporcionando un refugio tranquilo para los visitantes que
+               desean escapar del calor del día.</label>
+         </div>
+         <div class="mb-3">
+            <label  class="form-label h5">Direccion: </label>
+            <label class="form-label">Local #16, Sonsonate, Playas de Sonsonate</label>
+         </div>
+         <div class="mb-3">
+            <label  class="form-label h5">Departamento: </label>
+            <label class="form-label h5">Sonsonate</label>
+         </div>
+         <div class="mb-3">
+            <label  class="form-label h5">Estado: </label>
+            <label class="form-label h5">Inactivo</label>
+         </div>
+         <div class="mb-3">
+            <label  class="form-label h5">Fecha de registro:</label>
+            <label class="form-label h5">10/10/2023</label>
+         </div>
+         <div class="mb-3">
+            <label  class="form-label h5">Archivos anexados:</label>
+            <a href="ruta/del/archivo/nombre_del_archivo.pdf" target="_blank">Contrato de compromiso</a>
+         </div>
+         <div class="mb-3">
+            <label  class="form-label h5">Imagenes del lugar:</label>
+            <div>
+               <br />
+               <div class="">
+                  <div class="">
+                     <img src="https://regiones.prisamedia.co/wp-content/uploads/elementor/thumbs/GettyImages-1138737162-scaled-q81w9spj1412p3bn9qa0xcglz1obhkfgbzz6ayc9y0.jpg"
+                             class="d-block w-100"
+                             style="width: 300px; height: auto" />
+                  </div>
+                  <br/>
+                  <div class="">
+                     <img src="https://a.cdn-hotels.com/gdcs/production49/d1203/f5e2bb8e-dc33-4836-9d77-8fb9a3f627f6.jpg"
+                          class="d-block w-100"
+                          style="width: 300px; height: auto"/>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="mb-3">
+            <label class="form-label h5">Comentarios</label>
+            <textarea class="form-control" placeholder="Escribe aquí tus observaciones" id="floatingTextarea2" style="height: 100px"></textarea>
+         </div>
+         <br/>
+         <a href="" class="btn btn-success">Aceptar</a>
+         <a href="" class="btn btn-danger">Rechazar</a>
+         <a href="" class="btn btn-warning">Observacion</a>
+      </form>
+   </div>
+</h:body>
+</html>
+

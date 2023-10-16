@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:b="http://bootsfaces.net/ui">
+<h:head>
+    <title>YURBNB</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+</h:head>
+<h:body>
+    <ui:include src="c.ofertante.xhtml" />
+    <div class="container">
+        <button type="button" class="btn btn-success">Descargar plantilla de contrato</button>
+    </div>
+    <br/>
+    <div class="container">
+        <table id="example" class="table table-striped" style="width:100%">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Titulo</th>
+                <th>Costo</th>
+                <th>Descripcion</th>
+                <th>Direccion</th>
+                <th>Departamento</th>
+                <th>Estado</th>
+                <th>Fecha de registro</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Salinitas</td>
+                <td>100</td>
+                <td>Esta chivo</td>
+                <td>Ahi cerca de la playa</td>
+                <td>Sonsonate</td>
+                <td>Activa</td>
+                <td>10/10/2023</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Pacifico</td>
+                <td>90</td>
+                <td>Esta chivo</td>
+                <td>Por la playa</td>
+                <td>La libertad</td>
+                <td>Activa</td>
+                <td>11/10/2023</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>El camaron</td>
+                <td>150</td>
+                <td>Esta chivo</td>
+                <td>Enfrente de la playa</td>
+                <td>Sonsonate</td>
+                <td>Activa</td>
+                <td>13/10/2023</td>
+            </tr>
+            </tbody>
+        </table>
+        <br/>
+        <button type="button" class="btn btn-success">Subir Contrato</button>
+        <button type="button" class="btn btn-success">Subir Imagenes</button>
+    </div>
+
+</h:body>
+</html>

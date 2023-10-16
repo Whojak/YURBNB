@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:b="http://bootsfaces.net/ui">
+<h:head>
+    <title>Favoritos</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <style type="text/css">
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+    </style>
+</h:head>
+
+<h:body>
+    <ui:include src="cabecera.xhtml" />
+
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="../resources/img/1.jpg" class="card-img-top" alt="Hospedaje 1"/>
+                    <div class="card-body">
+                        <h2 style="text-align: center">Título del Hospedaje 1</h2>
+                        <div style="display: flex; justify-content: center;">
+                            <b:iconAwesome value="fa-star" solid="true"/>
+                            <b:iconAwesome value="fa-star" solid="true"/>
+                            <b:iconAwesome value="fa-star" solid="true"/>
+                            <b:iconAwesome value="fa-star" solid="true"/>
+                            <b:iconAwesome value="fa-star" solid="true"/>
+                        </div>
+                        <br></br>
+                        <p>Departamento: Departamento 1</p>
+                        <p>Descripción: Descripción del hospedaje 1.</p>
+                        <p>Dirección: Dirección del hospedaje 1</p>
+                        <p>Costo: $100 por noche</p>
+                    </div>
+                    <div>
+                        <b:button look="danger" value="Borrar"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="../resources/img/2.jpg" class="card-img-top" alt="Hospedaje 2"/>
+                    <div class="card-body">
+                        <h2 style="text-align: center">Título del Hospedaje 2</h2>
+                        <div style="display: flex; justify-content: center;">
+                            <b:iconAwesome value="fa-star" solid="true"/>
+                            <b:iconAwesome value="fa-star" solid="true"/>
+                            <b:iconAwesome value="fa-star" solid="true"/>
+                            <b:iconAwesome value="fa-star" solid="true"/>
+                            <b:iconAwesome value="fa-star" solid="true"/>
+                        </div>
+                        <br></br>
+                        <p>Departamento: Departamento 2</p>
+                        <p>Descripción: Descripción del hospedaje 2.</p>
+                        <p>Dirección: Dirección del hospedaje 2</p>
+                        <p>Costo: $120 por noche</p>
+                    </div>
+                    <div>
+                        <b:button look="danger" value="Borrar"/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="../resources/img/3.jpeg" class="card-img-top" alt="Hospedaje 3"/>
+                    <div class="card-body">
+                        <h2 style="text-align: center">Título del Hospedaje 3</h2>
+                        <div style="display: flex;justify-content: center;">
+                            <b:iconAwesome value="fa-star" solid="true"/>
+                            <b:iconAwesome value="fa-star" solid="true"/>
+                            <b:iconAwesome value="fa-star" solid="true"/>
+                            <b:iconAwesome value="fa-star" solid="true"/>
+                            <b:iconAwesome value="fa-star" solid="true"/>
+                        </div>
+                        <br></br>
+                        <p>Departamento: Departamento 3</p>
+                        <p>Descripción: Descripción del hospedaje 3</p>
+                        <p>Dirección: Dirección del hospedaje 3</p>
+                        <p>Costo: $110 por noche</p>
+                    </div>
+                    <div>
+                        <b:button look="danger" value="Borrar"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</h:body>
+
+</html>
